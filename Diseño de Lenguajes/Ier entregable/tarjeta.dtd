@@ -1,0 +1,25 @@
+<!ELEMENT ejecucion (titulo,emisor,nodo,receptor)>
+<!ELEMENT titulo (#PCDATA)>
+
+
+<!ELEMENT emisor(#PCDATA)>
+	<!ATTLIST nombre  #REQUIRED>
+  <!ATTLIST institucion  #REQUIRED>
+  <!ATTLIST cuenta  #REQUIRED>
+  <!ATTLIST sucursal  #REQUIRED>
+  <!ATTLIST saldo  #REQUIRED>
+
+<!ELEMENT nodo (dato+)>
+  <!ATTLIST id  #REQUIRED>
+  <!ATTLIST emisor  #REQUIRED>
+  <!ATTLIST receptor  #REQUIRED>
+  <!ATTLIST monto  #REQUIRED>
+  <!ATTLIST moneda  #REQUIRED>
+  <!ATTLIST rama  #REQUIRED>
+
+<!ELEMENT receptor (#PCDATA)>
+ <!ATTLIST nombre  #REQUIRED>
+ <!ATTLIST institucion  #REQUIRED>
+ <!ATTLIST cuenta  #REQUIRED>
+ <!ATTLIST sucursal  #REQUIRED>
+ <!ATTLIST saldo  #REQUIRED>

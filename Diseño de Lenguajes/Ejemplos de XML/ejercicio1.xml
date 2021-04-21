@@ -1,0 +1,49 @@
+<?xml version="1.0" ?> 
+ <!DOCTYPE catalogo SYSTEM "ejercicio1.dtd">  
+ <?xml-stylesheet type="text/css" href="estilos1.css"?>
+<catalogo>
+<titulo> ALBUN MUSICAL </titulo> 
+
+<cd>
+<titulod>Empire Burlesque</titulod>
+<artista>Bob Dylan</artista>
+<disquera>Columbia</disquera>
+<costo>10.90</costo>
+<anio>1985</anio>
+</cd>
+
+<cd>
+<titulod>Hide your heart</titulod>
+<artista>Bonnie Tyler</artista>
+<disquera> CBS Records</disquera>
+<costo>9.90</costo>
+<anio>1988</anio>
+</cd>
+
+<cd>
+<titulod>Greatest Hits</titulod>
+<artista>Dolly Parton</artista>
+<disquera>RCA</disquera>
+<costo>9.90</costo>
+<anio>1982</anio>
+</cd>
+
+<cd>
+<titulod>Still got the blues</titulod>
+<artista>Gary Moore</artista>
+<disquera>Virgin records</disquera>
+<costo>10.20</costo>
+<anio>1990</anio>
+</cd>
+
+<cd>
+<titulod>Eros</titulod>
+<artista>Eros Ramazzotti</artista>
+<disquera>BMG</disquera>
+<costo>9.90</costo>
+<anio>1997</anio>
+</cd>
+
+</catalogo>
+ 
+ 

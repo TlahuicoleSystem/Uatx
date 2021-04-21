@@ -1,0 +1,14 @@
+<!ELEMENT libro (titulo)>
+<!ELEMENT titulo (#PCDATA)>
+
+<!ELEMENT list(item+)>
+	<!ATTLIST list capitulo CDATA #REQUIRED>
+
+<!ELEMENT item (#PCDATA)>
+<!ATTLIST item tituloo CDATA #REQUIRED>
+
+<!ELEMENT datos(dato+)>
+	<!ATTLIST list datas CDATA #REQUIRED>
+
+<!ELEMENT dato (#PCDATA)>
+<!ATTLIST dato data CDATA #REQUIRED>

@@ -1,0 +1,6 @@
+<!ELEMENT BusinessCards (BusinessCard+)>
+<!ELEMENT BusinessCard(Name,phone,phone,email)>
+<!ELEMENT Name(#PCDATA)>
+<!ELEMENT phone(#PCDATA)>
+<!ELEMENT phone(#PCDATA)>
+<!ELEMENT email(#PCDATA)>

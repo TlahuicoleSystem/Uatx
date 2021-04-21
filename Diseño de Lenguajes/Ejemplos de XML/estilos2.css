@@ -1,0 +1,50 @@
+
+libro { 
+       font-family:Times; 
+       display:block; 
+       width: 100%;
+       height: 100%;
+       background-color: #2bff005d;
+       
+}
+titulo { 
+      font-family: Arial; 
+      font-size:6em;
+      display:block; 
+      text-align: center;
+      margin-bottom: 30pt;
+}
+list{ 
+      display:block; 
+      margin-left: 20%;
+}
+list:before { 
+      content:" " attr(capitulo); 
+      font-size:4em; 
+      color: #0044ff;
+}
+ item{ 
+      display:block;
+}
+ item:after{ 
+      content:" -" attr(tituloo) ;
+      font-size:2em; 
+      font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+datos{
+      display:block; 
+      margin-left: 60%; 
+      margin-top: 10pt;
+}
+datos:before { 
+      content:" " attr(datas); 
+      font-size:2em; 
+      color: #ff1e00;
+}
+dato{ 
+      display:block;
+      font-size:1.5em; 
+      font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+

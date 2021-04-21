@@ -1,0 +1,161 @@
+
+<?xml version="1.0" ?>
+ <!DOCTYPE catalogo SYSTEM "tarjeta.dtd">
+ <?xml-stylesheet type="text/css" href="style.css"?>
+<ejecucion>
+  <titulo> blockchein </titulo>
+
+  <emisor>
+     <nombre> Juan Lopez Perez</nombre>
+     <institucion> Santander </institucion>
+     <cuenta> 847638872873 </cuenta>
+     <sucursal> 83873 </sucursal>
+     <saldo> 50,000 </saldo>
+  </emisor>
+
+
+  <nodo>
+    <id> 8484 </id>  <!-- Este es el numero de la transaccion -->
+    <emisor> 847638872873 </emisor>
+    <receptor> 823638872073 </receptor>
+    <monto> 1,000 </monto>
+    <moneda> criptoMoney </moneda>
+    <rama> 'jsy773272fuh' </rama> <!-- Este es la forma en que se conecta con el siguiente nodo -->
+  </nodo>
+
+  <nodo>
+    <id> 8484 </id>  <!-- Este es el numero de la transaccion -->
+    <emisor> 847638872873 </emisor>
+    <receptor> 823638872073 </receptor>
+    <monto> 1,000 </monto>
+    <moneda> criptoMoney </moneda>
+    <rama> 'jsy773272fuh' </rama> <!-- Este es la forma en que se conecta con el siguiente nodo -->
+  </nodo>
+
+  <nodo>
+    <id> 8484 </id>  <!-- Este es el numero de la transaccion -->
+    <emisor> 847638872873 </emisor>
+    <receptor> 823638872073 </receptor>
+    <monto> 1,000 </monto>
+    <moneda> criptoMoney </moneda>
+    <rama> 'jsy773272fuh' </rama> <!-- Este es la forma en que se conecta con el siguiente nodo -->
+  </nodo>
+
+  <nodo>
+    <id> 8484 </id>  <!-- Este es el numero de la transaccion -->
+    <emisor> 847638872873 </emisor>
+    <receptor> 823638872073 </receptor>
+    <monto> 1,000 </monto>
+    <moneda> criptoMoney </moneda>
+    <rama> 'jsy773272fuh' </rama> <!-- Este es la forma en que se conecta con el siguiente nodo -->
+  </nodo>
+
+  <nodo>
+    <id> 8484 </id>  <!-- Este es el numero de la transaccion -->
+    <emisor> 847638872873 </emisor>
+    <receptor> 823638872073 </receptor>
+    <monto> 1,000 </monto>
+    <moneda> criptoMoney </moneda>
+    <rama> 'jsy773272fuh' </rama> <!-- Este es la forma en que se conecta con el siguiente nodo -->
+  </nodo>
+
+  <nodo>
+    <id> 8484 </id>  <!-- Este es el numero de la transaccion -->
+    <emisor> 847638872873 </emisor>
+    <receptor> 823638872073 </receptor>
+    <monto> 1,000 </monto>
+    <moneda> criptoMoney </moneda>
+    <rama> 'jsy773272fuh' </rama> <!-- Este es la forma en que se conecta con el siguiente nodo -->
+  </nodo>
+
+  <nodo>
+    <id> 8484 </id>  <!-- Este es el numero de la transaccion -->
+    <emisor> 847638872873 </emisor>
+    <receptor> 823638872073 </receptor>
+    <monto> 1,000 </monto>
+    <moneda> criptoMoney </moneda>
+    <rama> 'jsy773272fuh' </rama> <!-- Este es la forma en que se conecta con el siguiente nodo -->
+  </nodo>
+
+  <nodo>
+    <id> 8484 </id>  <!-- Este es el numero de la transaccion -->
+    <emisor> 847638872873 </emisor>
+    <receptor> 823638872073 </receptor>
+    <monto> 1,000 </monto>
+    <moneda> criptoMoney </moneda>
+    <rama> 'jsy773272fuh' </rama> <!-- Este es la forma en que se conecta con el siguiente nodo -->
+  </nodo>
+
+  <nodo>
+    <id> 8484 </id>  <!-- Este es el numero de la transaccion -->
+    <emisor> 847638872873 </emisor>
+    <receptor> 823638872073 </receptor>
+    <monto> 1,000 </monto>
+    <moneda> criptoMoney </moneda>
+    <rama> 'jsy773272fuh' </rama> <!-- Este es la forma en que se conecta con el siguiente nodo -->
+  </nodo>
+
+  <nodo>
+    <id> 8484 </id>  <!-- Este es el numero de la transaccion -->
+    <emisor> 847638872873 </emisor>
+    <receptor> 823638872073 </receptor>
+    <monto> 1,000 </monto>
+    <moneda> criptoMoney </moneda>
+    <rama> 'jsy773272fuh' </rama> <!-- Este es la forma en que se conecta con el siguiente nodo -->
+  </nodo>
+
+  <nodo>
+    <id> 8484 </id>  <!-- Este es el numero de la transaccion -->
+    <emisor> 847638872873 </emisor>
+    <receptor> 823638872073 </receptor>
+    <monto> 1,000 </monto>
+    <moneda> criptoMoney </moneda>
+    <rama> 'jsy773272fuh' </rama> <!-- Este es la forma en que se conecta con el siguiente nodo -->
+  </nodo>
+
+  <nodo>
+    <id> 8484 </id>  <!-- Este es el numero de la transaccion -->
+    <emisor> 847638872873 </emisor>
+    <receptor> 823638872073 </receptor>
+    <monto> 1,000 </monto>
+    <moneda> criptoMoney </moneda>
+    <rama> 'jsy773272fuh' </rama> <!-- Este es la forma en que se conecta con el siguiente nodo -->
+  </nodo>
+
+  <nodo>
+    <id> 8484 </id>  <!-- Este es el numero de la transaccion -->
+    <emisor> 847638872873 </emisor>
+    <receptor> 823638872073 </receptor>
+    <monto> 1,000 </monto>
+    <moneda> criptoMoney </moneda>
+    <rama> 'jsy773272fuh' </rama> <!-- Este es la forma en que se conecta con el siguiente nodo -->
+  </nodo>
+
+  <nodo>
+    <id> 8484 </id>  <!-- Este es el numero de la transaccion -->
+    <emisor> 847638872873 </emisor>
+    <receptor> 823638872073 </receptor>
+    <monto> 1,000 </monto>
+    <moneda> criptoMoney </moneda>
+    <rama> 'jsy773272fuh' </rama> <!-- Este es la forma en que se conecta con el siguiente nodo -->
+  </nodo>
+
+  <nodo>
+    <id> 8484 </id>  <!-- Este es el numero de la transaccion -->
+    <emisor> 847638872873 </emisor>
+    <receptor> 823638872073 </receptor>
+    <monto> 1,000 </monto>
+    <moneda> criptoMoney </moneda>
+    <rama> 'jsy773272fuh' </rama> <!-- Este es la forma en que se conecta con el siguiente nodo -->
+  </nodo>
+
+
+  <receptor>
+    <nombre> Guadalupe Jimenez Perez</nombre>
+    <institucion> Flink </institucion>
+    <cuenta> 823638872073 </cuenta>
+    <sucursal> 983 </sucursal>
+    <saldo> 2,000 </saldo>
+  </receptor>
+
+</ejecucion>

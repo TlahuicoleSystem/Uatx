@@ -1,0 +1,29 @@
+catalogo {
+    display: block;
+    background-color: #2bff005d;
+    width: 100%;
+}
+cd {
+    display: block;
+    margin-bottom: 20pt;
+    margin-left: 30%;
+}
+titulod {
+    display: block;
+    color: #ff00dd;
+    font-size: 30pt;
+}
+
+costo, anio, disquera, artista {
+    display: block;
+    color: #000000;
+    margin-left: 20pt;
+    font-size: 15pt;
+}
+titulo {
+    font-size: 70pt;
+    color: #ff2600;
+    text-align: center;
+    display: block;
+    margin-bottom: 20pt;
+}

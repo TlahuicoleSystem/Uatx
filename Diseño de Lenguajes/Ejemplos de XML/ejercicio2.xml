@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+ <!DOCTYPE libro SYSTEM "libro.dtd">  
+ <?xml-stylesheet type="text/css" href="estilos2.css"?>
+ <libro>
+	 <titulo> Programación  </titulo>
+		<list capitulo="Fundamentos">
+			<item tituloo="Introduccion"/>
+			<item tituloo="¿Como funciona?"/>
+			<item tituloo="Estructura"/>
+			 <item tituloo="Variables"/>
+		</list>
+
+		<list capitulo="Primer Programa">
+			 <item tituloo="Problema"/>
+			 <item tituloo="Algoritmo"/>
+			 <item tituloo="Diagrama de flujo"/>
+			 <item tituloo="Lenguaje"/>
+		</list>
+
+     	<list capitulo="Recapitulando">
+			 <item tituloo="Lenguajes"/>
+			 <item tituloo="Caracteristicas"/>
+			 <item tituloo="Algoritmo"/>
+			 <item tituloo="Exportacion"/>
+		</list>
+
+     	<datos datas="DATOS">
+     		<dato data="Autor..."> Diana Michelle Perez and Josue Barrales</dato>
+     		<dato data="Editorial..."> UATx</dato>
+     		<dato data="Año..."> 2021</dato>
+     	</datos>
+ </libro>
