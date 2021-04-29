@@ -13,3 +13,10 @@ mayor3 :: Float -> Float -> Float -> Float
 mayor3 x y z = mayor x (mayor y z)
 mayor4 :: Float -> Float -> Float -> Float -> Float
 mayor4 w x y z = mayor (mayor w x) (mayor y z)
+
+menor :: Float -> Float -> Float
+menor x y = if x < y then x else y
+menor3 :: Float -> Float -> Float -> Float
+menor3 x y z = menor x (menor y z)
+menor4 :: Float -> Float -> Float -> Float -> Float
+menor4 w x y z = menor (menor w x) (menor y z)
