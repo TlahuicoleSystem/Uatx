@@ -21,7 +21,7 @@ menor3 x y z = menor x (menor y z)
 menor4 :: Float -> Float -> Float -> Float -> Float
 menor4 w x y z = menor (menor w x) (menor y z)
 
-tresIguales :: Integer -> Integer -> Integer -> Bool
+tresIguales :: Float -> Float -> Float -> Bool
 tresIguales x y z = (x == y) && (y == z)
-tresDiferentes :: Integer -> Integer -> Integer -> Bool
+tresDiferentes :: Float -> Float -> Float -> Bool
 tresDiferentes x y z = ((x /= y) && (y /= z) && (x /= z))
