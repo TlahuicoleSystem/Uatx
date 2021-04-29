@@ -25,3 +25,6 @@ tresIguales :: Float -> Float -> Float -> Bool
 tresIguales x y z = (x == y) && (y == z)
 tresDiferentes :: Float -> Float -> Float -> Bool
 tresDiferentes x y z = ((x /= y) && (y /= z) && (x /= z))
+
+mayorG :: Float -> Float -> Float
+mayorG x y | x>=y =x | otherwise =y
