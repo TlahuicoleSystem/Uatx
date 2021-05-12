@@ -7,23 +7,23 @@
 ///ENCONTRAR UNION
 int padre[ MAX ]; //Este arreglo contiene el padre del i-esimo nodo
 
-//M�todo de inicializaci�n de los vertices
+//Metodo de inicializaci�n de los vertices
 void MakeSet( int n ){
     for( int i = 1 ; i <= n ; ++i )
         padre[ i ] = i;
 }
 
-//M�todo para encontrar la raiz del v�rtice actual X
+//Metodo para encontrar la raiz del vertice actual X
 int Find( int x ){
     return ( x == padre[ x ] ) ? x : padre[ x ] = Find( padre[ x ] );
 }
 
-//M�todo para unir 2 componentes conexas
+//Metodo para unir 2 componentes conexas
 void Union( int x , int y ){
     padre[ Find( x ) ] = Find( y );
 }
 
-//M�todo que me determina si 2 v�rtices estan o no en la misma
+//Metodo que me determina si 2 vertices estan o no en la misma
 bool sameComponent( int x , int y ){
     if( Find( x ) == Find( y ) ) return true;
     return false;
@@ -73,21 +73,21 @@ void Kruskal(){
         puts("Error no tenemos todos los vertices");
         return;
     }
-    puts( "EL CAMINO MINIMO ES...\n");
+    cout << "EL CAMINO MINIMO ES..." << endl;
     for( int i = 0 ; i < numAristas ; ++i )
         printf("[ %d,%d ] : %f\n" , AM[ i ].origen , AM[ i ].destino , AM[ i ].peso ); //( vertice u , vertice v ) : peso
-
-    printf( "El peso minimo es : [%f\n]" , total );
+    cout << "El peso minimo es : " << total << endl;
     system ("pause");
 }
 
 int main(){
     int mst;
-    printf( "Ingresa el cantidad de Vertices y aristas = " );
+    printf("\nJosue Barrales Galvez\nHOLA BIENVENIDO\nPORFAVOR INGRESA LOS DATOS PARA Kruscal\n");
+    cout << "Ingresa el cantidad de Vertices y aristas = " << endl;
     scanf("%d %d" , &V , &E );
 
     //Ingreso de datos
-    printf("Ingresa los datos x x x");
+    cout << "Ingresa los datos x x x " << endl;
     for( int i = 0 ; i < E ; ++i )
         scanf("%d %d %f" , &arista[ i ].origen , &arista[ i ].destino , &arista[ i ].peso );
 
