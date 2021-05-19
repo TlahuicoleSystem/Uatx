@@ -32,7 +32,8 @@ struct State{
 
 int algoritmo(const int begin, const int end, const Graph graph){
 	priority_queue<State> pq; // La cola de prioridad.
-	vector<int> Dist(graph.V, oo); // La distancia hacia todos los vertices. Inicialmente para cada vertice su valor es infinito.
+	vector<int> Dist(graph.V, oo); // La distancia hacia todos los vertices.
+	//Inicialmente para cada vertice su valor es infinito.
 	vector<bool> mark(graph.V, false); // Este arreglo nos permitira determinar los nodos procesados.
 
 	Dist[begin] = 0; // Valor inicial del vertice de partida.

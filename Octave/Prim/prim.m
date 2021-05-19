@@ -1,6 +1,6 @@
 
 clc
-print(\nJosue Barrales Galvez\nHOLA BIENVENIDO\nPORFAVOR INGRESA LOS DATOS PARA Prim\n)
+fprintf("Josue Barrales Galvez\nHOLA BIENVENIDO\nPORFAVOR INGRESA LOS DATOS PARA Prim\n");
 fid = fopen('texto1.txt', 'r');      % Entrada de la matriz
 l = fscanf(fid, '%g %g', [1 1])     % Tamaño de la matriz
 h = fscanf(fid, '%g %g', [l l])     % matriz
