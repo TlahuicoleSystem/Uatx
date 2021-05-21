@@ -1,4 +1,3 @@
-
 clc
 fprintf("Josue Barrales Galvez\nHOLA BIENVENIDO\nPORFAVOR INGRESA LOS DATOS PARA Prim\n");
 fid = fopen('texto1.txt', 'r');      % Entrada de la matriz
