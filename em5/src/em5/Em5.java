@@ -58,16 +58,4 @@ public class Em5 {
         return desencriptacion;
     }
     
-    
-    public static void main(String[] args) {
-        // TODO code application logic here
-        String secretKey = "SomosProgramadores";
-        Em5 mMain = new Em5();
-        String cadenaAEncriptar = JOptionPane.showInputDialog("Ingresa la cadena a encriptar");
-        String cadenaEncriptada = mMain.ecnode(secretKey, cadenaAEncriptar);
-        JOptionPane.showMessageDialog(null, "Cadena encriptada: " + cadenaEncriptada);
-        String cadenaDesencriptada = mMain.deecnode(secretKey, cadenaEncriptada);
-        JOptionPane.showMessageDialog(null, "Cadena desencriptada: " + cadenaDesencriptada);
-    }
-    
 }
