@@ -1,0 +1,124 @@
+Vacunas{
+  background: #F5CE54;
+  width: 100%;
+  height: 100%;
+}
+
+titulo{
+  display: block;
+  text-align: center;
+  font-size: 90px;
+  font-family: cursive;
+}
+
+Vacuna{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #58D68D;
+	width: 700px;
+	display: block;
+	padding: 10pt;
+	border: 1px solid #0D3427;
+	margin: 10px;
+	 text-align: left;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+laboratorio{
+  font-size: 30px;
+	color:#0D3427;
+	font-weight: bold;
+	display: block;
+	margin-top: 3%;
+}
+laboratorio:before {content: "Laboratorio:"}
+
+No-Serie{
+  font-size: 30px;
+	color:#0D3427;
+	font-weight: bold;
+	display: block;
+	margin-top: 3%;
+}
+No-Serie:before {content: "Numero de Serie:"}
+
+lote{
+  font-size: 30px;
+	color:#0D3427;
+	font-weight: bold;
+	display: block;
+	margin-top: 3%;
+}
+lote:before {content: "Lote:"}
+
+Dosis-esquema{
+  font-size: 30px;
+	color:#0D3427;
+	font-weight: bold;
+	display: block;
+	margin-top: 3%;
+}
+Dosis-esquema:before {content: "Dosis recomendadas:"}
+
+Fecha-fabricacion{
+  font-size: 30px;
+	color:#0D3427;
+	font-weight: bold;
+	display: block;
+	margin-top: 3%;
+}
+Fecha-fabricacion:before {content: "Fecha de fabricacion:"}
+
+Caducidad{
+  font-size: 30px;
+	color:#0D3427;
+	font-weight: bold;
+	display: block;
+	margin-top: 3%;
+}
+Caducidad:before {content: "Fecha de Caducidad:"}
+
+Temperatura{
+  font-size: 30px;
+	color:#0D3427;
+	font-weight: bold;
+	display: block;
+	margin-top: 3%;
+}
+Temperatura:before {content: "Temperatura recomendada:"}
+
+Origen{
+  font-size: 30px;
+	color:#0D3427;
+	font-weight: bold;
+	display: block;
+	margin-top: 3%;
+}
+Origen:before {content: "Paiz de Origen:"}
+
+Destino{
+  font-size: 30px;
+	color:#0D3427;
+	font-weight: bold;
+	display: block;
+	margin-top: 3%;
+}
+Destino:before {content: "Paiz Destino:"}
+
+Fecha-Llegada{
+  font-size: 30px;
+	color:#0D3427;
+	font-weight: bold;
+	display: block;
+	margin-top: 3%;
+}
+Fecha-Llegada:before {content: "Fecha de Llegada:"}
+
+Autorizacion{
+  font-size: 30px;
+	color:#0D3427;
+	font-weight: bold;
+	display: block;
+	margin-top: 3%;
+}
+Autorizacion:before {content: "Firma de utorizacion:"}
