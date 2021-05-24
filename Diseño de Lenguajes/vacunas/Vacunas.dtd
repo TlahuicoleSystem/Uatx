@@ -1,12 +1,18 @@
+<!ELEMENT Vacunas(titulo,Vacuna+)>
 
+<!ELEMENT titulo(#PCDATA)>
 
+<!ELEMENT Vacuna(laboratorio,No-serie,lote,Dosis-esquema,Fecha-fabricacion,Caducidad,Temperatura,
+Origen,Destino,Fecha-Llegada,Autorizacion)>
 
-
-
-
-<!ELEMENT Vacunas (Vacunas+)>
-<!ELEMENT BusinessCard(Name,phone,phone,email)>
-<!ELEMENT Name(#PCDATA)>
-<!ELEMENT phone(#PCDATA)>
-<!ELEMENT phone(#PCDATA)>
-<!ELEMENT email(#PCDATA)>
+<!ELEMENT laboratorio(#PCDATA)>
+<!ELEMENT No-serie(#PCDATA)>
+<!ELEMENT lote(#PCDATA)>
+<!ELEMENT Dosis-esquema(#PCDATA)>
+<!ELEMENT Fecha-fabricacion(#PCDATA)>
+<!ELEMENT Caducidad(#PCDATA)>
+<!ELEMENT Temperatura(#PCDATA)>
+<!ELEMENT Origen(#PCDATA)>
+<!ELEMENT Destino(#PCDATA)>
+<!ELEMENT Fecha-Llegada(#PCDATA)>
+<!ELEMENT Autorizacion(#PCDATA)>
