@@ -64,9 +64,12 @@
                                   <EmptySpace max="32767" attributes="0"/>
                                   <Component id="bus_ingre_des" min="-2" max="-2" attributes="0"/>
                               </Group>
-                              <Component id="boton_des" alignment="1" min="-2" max="-2" attributes="0"/>
                               <Component id="jScrollPane3" alignment="0" max="32767" attributes="0"/>
                               <Component id="jScrollPane4" alignment="0" max="32767" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="boton_des" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="316" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
                       </Group>
                       <EmptySpace pref="261" max="32767" attributes="0"/>

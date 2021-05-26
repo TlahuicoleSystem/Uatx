@@ -19,12 +19,13 @@ import javax.swing.UnsupportedLookAndFeelException;
 public class Visual extends javax.swing.JFrame {
 
     Em5 codigo;  //Hacemos uso de la clase Em5
-    String secretKey;
+    String clave;
 
     public Visual() { // Constructor
         initComponents();
         codigo = new Em5(); // Inicializamos la varible 
-        secretKey = "SomosProgramadores";
+        clave = "clave";
+
     }
 
     public String abrir() { // Metodo para abir el archivo
@@ -45,15 +46,12 @@ public class Visual extends javax.swing.JFrame {
             }
         } catch (Exception ex) {
             Logger.getLogger(Visual.class.getName()).log(Level.SEVERE, null, ex);
+            JOptionPane.showMessageDialog(null, "Lo sentimos algo ocurrio");
         }
-
         return texto;
     }
-    
-    
-    
-    
-    public void guardar(String cadena){
+
+    public void guardar(String cadena) {
         String rutadestino = "";
         JFileChooser jf = new JFileChooser();
         jf.showOpenDialog(this);
@@ -73,11 +71,10 @@ public class Visual extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "ARCHIVO CREADO CORRECTAMENTE");
         } catch (Exception e) {
             e.printStackTrace();
+            JOptionPane.showMessageDialog(null, "Lo sentimos algo ocurrio");
         }
     }
 
-    
-    
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -160,9 +157,11 @@ public class Visual extends javax.swing.JFrame {
                             .addComponent(jLabel4)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(bus_ingre_des))
-                        .addComponent(boton_des)
                         .addComponent(jScrollPane3, javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jScrollPane4, javax.swing.GroupLayout.Alignment.LEADING)))
+                        .addComponent(jScrollPane4, javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel2Layout.createSequentialGroup()
+                            .addComponent(boton_des)
+                            .addGap(316, 316, 316))))
                 .addContainerGap(261, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -293,47 +292,41 @@ public class Visual extends javax.swing.JFrame {
         String cadenaOriginal = inicial_encriptar.getText(); //Recuperamos los datos el text
 
         //Llamamos el metodo y recuperaos el return
-        String cadenaEncriptada = codigo.ecnode(secretKey, cadenaOriginal);
+        String cadenaEncriptada = codigo.encriptar(clave, cadenaOriginal);
 
         salida_encriptar.setText(cadenaEncriptada);
     }//GEN-LAST:event_boton_encriptarActionPerformed
 
-    
-    
-    
+
     private void boton_desActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton_desActionPerformed
         // BOTON PARA DESENCRIPTAR
         String cadenaOriginal = inicial_des.getText();//Recuperamos los datos el text
 
         //Llamamos el metodo y recuperaos el return
-        String cadenaDes = codigo.deecnode(secretKey, cadenaOriginal);
+        String cadenaDes = codigo.desencriptar(clave, cadenaOriginal);
 
         salida_des.setText(cadenaDes);
     }//GEN-LAST:event_boton_desActionPerformed
 
-     
-    
+
     private void bus_ingre_encripActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bus_ingre_encripActionPerformed
         // Metodo para buscar un archivo a encriptar
         inicial_encriptar.setText(abrir());
     }//GEN-LAST:event_bus_ingre_encripActionPerformed
 
 
-    
     private void bus_ingre_desActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bus_ingre_desActionPerformed
         // Metodo para buscar un archivo a des-encriptar
         inicial_des.setText(abrir());
     }//GEN-LAST:event_bus_ingre_desActionPerformed
 
-    
-    
+
     private void guardar_salida_desActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_guardar_salida_desActionPerformed
         // Boton para guar el archivo desencriptado
         guardar(salida_des.getText());
     }//GEN-LAST:event_guardar_salida_desActionPerformed
 
-    
-    
+
     private void guardar_salida_encripActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_guardar_salida_encripActionPerformed
         // Boton para guardar el archivo encriptado
         guardar(salida_encriptar.getText());
@@ -369,7 +362,7 @@ public class Visual extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                
+
                 //PARA VENTANA AGRADABLE
                 try {
                     try {
@@ -384,9 +377,7 @@ public class Visual extends javax.swing.JFrame {
                 } catch (IllegalAccessException ex) {
                     Logger.getLogger(Visual.class.getName()).log(Level.SEVERE, null, ex);
                 }
-                
-                
-                
+
                 new Visual().setVisible(true); // NO TOCAR
 
             }
