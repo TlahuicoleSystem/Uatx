@@ -1,49 +1,52 @@
 Vacunas{
-  background: #F5CE54;
+  /*background: #F5CE54;*/
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
   width: 100%;
   height: 100%;
 }
 
 titulo{
-  display: block;
-  text-align: center;
-  font-size: 90px;
-  font-family: cursive;
+	padding-top:5%;
+	display: block;
+	text-align: center;
+	font-size: 90px;
+	color:beige;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 Vacuna{
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #58D68D;
-	width: 700px;
+	width: 580px;
 	display: block;
 	padding: 10pt;
-	border: 1px solid #0D3427;
-	margin: 10px;
+	border: 1px solid whitesmoke;
+	margin: 30px;
 	 text-align: left;
    margin-left: auto;
    margin-right: auto;
 }
 
 laboratorio{
-  font-size: 30px;
+  font-size: 25px;
 	color:#0D3427;
 	font-weight: bold;
 	display: block;
 	margin-top: 3%;
 }
-laboratorio:before {content: "Laboratorio:"}
+laboratorio:before {content: "🧪Laboratorio:"}
 
 No-Serie{
-  font-size: 30px;
+  font-size: 25px;
 	color:#0D3427;
 	font-weight: bold;
 	display: block;
 	margin-top: 3%;
 }
-No-Serie:before {content: "Numero de Serie:"}
+No-Serie:before {content: "Número de Serie:"}
 
 lote{
-  font-size: 30px;
+  font-size: 25px;
 	color:#0D3427;
 	font-weight: bold;
 	display: block;
@@ -52,7 +55,7 @@ lote{
 lote:before {content: "Lote:"}
 
 Dosis-esquema{
-  font-size: 30px;
+  font-size: 25px;
 	color:#0D3427;
 	font-weight: bold;
 	display: block;
@@ -61,64 +64,65 @@ Dosis-esquema{
 Dosis-esquema:before {content: "Dosis recomendadas:"}
 
 Fecha-fabricacion{
-  font-size: 30px;
+  font-size: 25px;
 	color:#0D3427;
 	font-weight: bold;
 	display: block;
 	margin-top: 3%;
 }
-Fecha-fabricacion:before {content: "Fecha de fabricacion:"}
+Fecha-fabricacion:before {content: "🟥Fecha de fabricación:"}
 
 Caducidad{
-  font-size: 30px;
+  font-size: 25px;
 	color:#0D3427;
 	font-weight: bold;
 	display: block;
 	margin-top: 3%;
 }
-Caducidad:before {content: "Fecha de Caducidad:"}
+Caducidad:before {content: "🟥Fecha de Caducidad:"}
 
 Temperatura{
-  font-size: 30px;
+  font-size: 25px;
 	color:#0D3427;
 	font-weight: bold;
 	display: block;
 	margin-top: 3%;
 }
-Temperatura:before {content: "Temperatura recomendada:"}
-
-Origen{
-  font-size: 30px;
-	color:#0D3427;
-	font-weight: bold;
-	display: block;
-	margin-top: 3%;
-}
-Origen:before {content: "Paiz de Origen:"}
-
-Destino{
-  font-size: 30px;
-	color:#0D3427;
-	font-weight: bold;
-	display: block;
-	margin-top: 3%;
-}
-Destino:before {content: "Paiz Destino:"}
+Temperatura:before {content: "🟥Temperatura recomendada:"}
 
 Fecha-Llegada{
-  font-size: 30px;
+	font-size: 25px;
+	  color:#0D3427;
+	  font-weight: bold;
+	  display: block;
+	  margin-top: 3%;
+  }
+  Fecha-Llegada:before {content: "🟥Fecha de Llegada:"}
+
+Origen{
+  font-size: 25px;
 	color:#0D3427;
 	font-weight: bold;
 	display: block;
 	margin-top: 3%;
 }
-Fecha-Llegada:before {content: "Fecha de Llegada:"}
+Origen:before {content: "País de Origen:"}
+
+Destino{
+  font-size: 25px;
+	color:#0D3427;
+	font-weight: bold;
+	display: block;
+	margin-top: 3%;
+}
+Destino:before {content: "País Destino:"}
+
 
 Autorizacion{
-  font-size: 30px;
+  font-size: 25px;
 	color:#0D3427;
 	font-weight: bold;
 	display: block;
 	margin-top: 3%;
 }
-Autorizacion:before {content: "Firma de utorizacion:"}
+Autorizacion:before {content: "📄Firma de autorización:"}
