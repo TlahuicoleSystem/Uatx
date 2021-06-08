@@ -1,3 +1,12 @@
+%Para que funcione debemos de tener la matriz en un archivo txt de la siguinte manera
+
+%5
+%0 1.3 2.1 0.9 0.9
+%1.3 0 0.9 1.7 1.2
+%2.1 0.9 0 2.0 0.7
+%0.9 1.7 2.0 0 0.7
+%0.9 1.2 0.7 0.7 0
+
 clc
 fprintf("Josue Barrales Galvez\nHOLA BIENVENIDO\nPORFAVOR INGRESA LOS DATOS PARA Prim\n");
 fid = fopen('texto1.txt', 'r');      % Entrada de la matriz
