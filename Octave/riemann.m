@@ -30,6 +30,7 @@ endfor
 resultado=(A+B)/2;
 
 
-
+fprintf('\nIzquierda es: %f',A)
+fprintf('\nDerecha es: %f',B)
 fprintf('\nEl resultado es: %f',resultado)
 printf("\nMUCHAS GRACIAS EL PROCESO HA TERMINADO");
