@@ -68,5 +68,3 @@ th,td{
 </div>
 </body>
 </html>
-
-<--prueba -->
