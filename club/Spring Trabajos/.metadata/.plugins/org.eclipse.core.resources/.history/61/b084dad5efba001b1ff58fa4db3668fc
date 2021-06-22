@@ -1,0 +1,5 @@
+package com.uatx.rest.model;
+
+public class ColorVO {
+
+}

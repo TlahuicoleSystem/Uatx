@@ -1,0 +1,125 @@
+<html>
+    <head=>
+        <title>Mi pagina</title>
+        
+        <style>
+            body{
+                background: rgb(157, 207, 250);
+            }
+            .myheader{
+                font-style: italic;
+            }
+            #myfirsta{
+                font-weight: 900;
+            }
+        </style>
+        <link rel="stylesheet" href="estilos">
+    </head>
+    <body bgcolor="red">
+        <form action="mytarget.html" method="GET">
+            <table>
+                <tr><td colspan="2" style="text-align:center;">
+                    Please capture your data!
+                </td></tr>
+                <tr>
+                    <td>Name:</td>
+                    <td>
+                    <input type="text" name="name" /></td>
+                </tr>
+                <tr>
+                    <td>Phone:</td>
+                    <td><input type="number" name="phone" /></td>
+                </tr>
+                <tr>
+                    <td>Birth date:</td>
+                    <td><input type="date" name="phone" /></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password" /></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td><input type="radio" name="gender" />Male<br/>
+                        <input type="radio" name="gender" />Female<br/>
+                        <input type="radio" name="gender" />Other/Non-binary</td>
+                </tr>
+                <tr>
+                    <td>Games:</td>
+                    <td><input type="checkbox" name="play_halo" /> Halo<br/>
+                        <input type="checkbox" name="play_minecraft" />Minecraft</td>
+                </tr>
+                <tr>
+                    <td>Curriculum:</td>
+                    <td><input type="file" name="curriculum" /></td>
+                </tr>
+                <tr><td colspan="2" style="text-align:center;">
+                    <input type="button" value="I'm input"/>
+                    <input type="submit" value="I'm input submit"/>
+                    <button>I'm button</button>
+                </td>
+                </tr>
+            </table>
+        </form>
+
+        <table border="1">
+            <thead>
+                <tr><!-- table row (fila)-->
+                    <th>
+                        No.
+                    </th>
+                    <th>
+                        Nombre
+                    </th>
+                    <th>
+                        Años
+                    </th>
+                    <th>
+                        Gender
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><!-- table row (fila)-->
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        Josue
+                    </td>
+                    <td>
+                        19
+                    </td>
+                    <td>
+                        Apache 
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <p>Parrafo</p>
+        <a id="myfirsta" href="https://www.google.com/">Soy a con href</a>
+        <br>
+        <h1 class="myheader">h1</h1>
+        <h2 class="myheader">h2</h2>
+        <h3 class="myheader">h3</h3>
+        <h4 class="myheader">h4</h4>
+        <h5 class="myheader">h5</h5>
+        <h6 class="myheader">h6</h6>
+        <nav></nav>
+        <span style="width: 300px; height: 200px; background: cyan;">Un texto en un span</span>
+        <div style="width: 300px; height: 200px; background: cyan;">
+            <pre>
+                for(){
+                    fuctioncall()
+                    result()
+                    if(){
+                        othermethod();
+                    }
+                }
+            </pre>
+        </div>
+    </body>
+</html>
+ 

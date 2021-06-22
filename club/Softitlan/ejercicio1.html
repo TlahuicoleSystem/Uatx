@@ -1,0 +1,133 @@
+<html>
+    <head=>
+        <title>Mi pagina</title>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body bgcolor="red">
+        <table border="1">
+            <thead>
+                <tr>
+                    <td colspan="5" style="text-align:center;">DATOS</td>
+                </tr>
+                <tr><!-- table row (fila)-->
+                    <td>
+                        ID
+                    </td>
+                    <td>
+                        Nombre
+                    </td>
+                    <td>
+                        Matricula
+                    </td>
+                    <td>
+                        Grado 
+                    </td>
+                    <td>
+                        Licenciatura 
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><!-- table row (fila)-->
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        Josue barrales Galvez
+                    </td>
+                    <td>
+                        20191390
+                    </td>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        Quimica
+                    </td>
+                </tr>
+
+                <tr><!-- table row (fila)-->
+                    <td>
+                        2
+                    </td>
+                    <td>
+                        Luis Perez Galvez
+                    </td>
+                    <td>
+                        20191428
+                    </td>
+                    <td>
+                        2
+                    </td>
+                    <td>
+                        Electronica
+                    </td>
+                </tr>
+
+
+                <tr><!-- table row (fila)-->
+                    <td>
+                        3
+                    </td>
+                    <td>
+                        Oscar Gonsales Rodriguez
+                    </td>
+                    <td>
+                        20191450
+                    </td>
+                    <td>
+                        4
+                    </td>
+                    <td>
+                        Computacion
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <div style="width: 500px;  background: cyan;">
+            <form action="" method="POST">
+                <table>
+                    <tr><td colspan="2" style="text-align:center;">
+                        INGRESA TUS DATOS
+                    </td></tr>
+                    <tr>
+                        <td>Nombre:</td>
+                        
+                        <td><input type="text" name="name" /></td>
+                    </tr>
+                    <tr>
+                        <td>Matricula:</td>
+                        <td><input type="number" name="matricula" /></td>
+                    </tr>
+                    <tr>
+                        <td>Grado:</td>
+                        <td><input type="radio" name="gender" />1
+                            <input type="radio" name="gender" />2
+                            <input type="radio" name="gender" />3
+                            <input type="radio" name="gender" />4</td>
+                    </tr>
+                    <tr><td>Licenciatura</td>
+                        <td>
+                            <select name="Licenciatura">
+                                <option value="1">Quimica</option> 
+                                <option value="2">Computacion</option> 
+                                <option value="3">Electronica</option>
+                                <option value="10">Matematicas</option> 
+                                <option value="11">Mecanica</option> 
+                             </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Formato Reinscribcion:</td>
+                        <td><input type="file" name="formato" /></td>
+                    </tr>
+                    <tr><td colspan="2" style="text-align:center;">
+                        <input type="submit" value="Enviar"/></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

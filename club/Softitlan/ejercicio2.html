@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 2</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="jumbotron text-center bg-secondary" ><h1> My pagina </h1></div>
+        <div class="container"style="border:0px solid black;">
+            <div class="card">
+                <div class="card-body">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr>
+                                <td colspan="5" class="card-header bg-warning" >DATOS</td>
+                            </tr>
+                            <tr><!-- table row (fila)-->
+                                <td>
+                                    ID
+                                </td>
+                                <td>
+                                    Nombre
+                                </td>
+                                <td>
+                                    Matricula
+                                </td>
+                                <td>
+                                    Grado 
+                                </td>
+                                <td>
+                                    Licenciatura 
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><!-- table row (fila)-->
+                                <td>
+                                    1
+                                </td>
+                                <td>
+                                    Josue barrales Galvez
+                                </td>
+                                <td>
+                                    20191390
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td>
+                                    Quimica
+                                </td>
+                            </tr>
+            
+                            <tr><!-- table row (fila)-->
+                                <td>
+                                    2
+                                </td>
+                                <td>
+                                    Luis Perez Galvez
+                                </td>
+                                <td>
+                                    20191428
+                                </td>
+                                <td>
+                                    2
+                                </td>
+                                <td>
+                                    Electronica
+                                </td>
+                            </tr>
+            
+            
+                            <tr><!-- table row (fila)-->
+                                <td>
+                                    3
+                                </td>
+                                <td>
+                                    Oscar Gonsales Rodriguez
+                                </td>
+                                <td>
+                                    20191450
+                                </td>
+                                <td>
+                                    4
+                                </td>
+                                <td>
+                                    Computacion
+                                </td>
+                            </tr>
+
+                            <tr><!-- table row (fila)-->
+                                <td>
+                                    4
+                                </td>
+                                <td>
+                                    Josue barrales Galvez
+                                </td>
+                                <td>
+                                    20191390
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                                <td>
+                                    Quimica
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="card-header bg-primary text-white">DATA</div>
+                <div class="card-body">
+                    <form action="mytarget.php" method="GET">
+                        <div class="form-group">
+                            <label for="input-name">Name:</label>
+                            <input type="text" name="name" class="form-control" id="input-name" />
+                        </div>
+                        <div class="form-group">
+                            <label for="input-phone">Phone:</label>
+                            <input type="number" name="phone" id="input-phone"  class="form-control"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="input-birthdate">Birth date:</label>
+                            <input type="date" name="birthdate" id="input-birthdate" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="input-password">Password:</label>
+                            <input type="password" name="password" id="input-password" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="input-name">Gender:</label>
+                            <div class="form-check">
+                                <label for="input-gender-m">
+                                <input type="radio" name="gender" value="M" id="input-gender-m" class="form-check-input" />Male</label>
+                            </div>
+                            <div class="form-check">
+                                <label for="input-gender-f">
+                                <input type="radio" name="gender" value="F" id="input-gender-f" class="form-check-input" />Female</label>
+                            </div>
+                            <div class="form-check">
+                                <label for="input-gender-o">
+                                <input type="radio" name="gender" value="O" id="input-gender-o" class="form-check-input" />Other</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="input-name">Games:</label>
+                            <div class="form-check">
+                                <label for="input-games-halo">
+                                <input type="checkbox" name="play_halo" value="1" id="input-games-halo" class="form-check-input" />Halo</label>
+                            </div>
+                            <div class="form-check">
+                                <label for="input-games-minecraft">
+                                <input type="checkbox" name="play_minecraft" value="1" id="input-games-minecraft" class="form-check-input" />Halo</label>
+                            </div>
+                            <div class="form-check">
+                                <label for="input-games-fortnite">
+                                <input type="checkbox" name="play_fornite" value="1" id="input-games-fortnite" class="form-check-input" />Fortnite</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="input-device">Preffered game device:</label>
+                            <select name="mydevice" class="form-control" id="input-device">
+                                <option value="">-Please select-</option>
+                                <option value="1">PC Master Race</option>
+                                <option value="2">Xbox</option>
+                                <option value="3">PS</option>
+                                <option value="4">Nintendo</option>
+                                <option value="5">Mobile</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="input-curriculum">Name:</label>
+                            <input type="file" name="curriculum" class="form-control-file" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

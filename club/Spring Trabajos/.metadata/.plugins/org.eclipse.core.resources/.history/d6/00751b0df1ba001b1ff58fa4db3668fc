@@ -1,0 +1,5 @@
+package com.uatx.rest.repository;
+
+public interface ColorRepository {
+
+}
