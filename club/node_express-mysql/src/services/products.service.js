@@ -27,7 +27,7 @@ export const insertProduct = async (product) => {
     return idNewProduct
 }
 
-
+//uodate products
 
 export const updateProduct = async(product, id) => {
     try{
@@ -38,7 +38,7 @@ export const updateProduct = async(product, id) => {
     }
 }
 
-
+//delate products
 
 export const deleteProduct = async id => {
     try{
