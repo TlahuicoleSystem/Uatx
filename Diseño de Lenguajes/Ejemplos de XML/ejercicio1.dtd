@@ -1,8 +1,0 @@
-<!ELEMENT catalogo (titulo,cd+)>
-<!ELEMENT titulo(#PCDATA)>
-<!ELEMENT cd (titulod,artista+,disquera,costo?,anio?)>
-<!ELEMENT titulod(#PCDATA)>
-<!ELEMENT artista(#PCDATA)>
-<!ELEMENT disquera(#PCDATA)>
-<!ELEMENT costo(#PCDATA)>
-<!ELEMENT anio(#PCDATA)>
