@@ -1,0 +1,20 @@
+C:\Users\Josue-Chuwi\source\repos\EditorTextos\EditorTextos\bin\Release\EditorTextos.exe.config
+C:\Users\Josue-Chuwi\source\repos\EditorTextos\EditorTextos\bin\Release\EditorTextos.exe
+C:\Users\Josue-Chuwi\source\repos\EditorTextos\EditorTextos\bin\Release\EditorTextos.pdb
+C:\Users\Josue-Chuwi\source\repos\EditorTextos\EditorTextos\obj\Release\EditorTextos.csprojAssemblyReference.cache
+C:\Users\Josue-Chuwi\source\repos\EditorTextos\EditorTextos\obj\Release\EditorTextos.Form1.resources
+C:\Users\Josue-Chuwi\source\repos\EditorTextos\EditorTextos\obj\Release\EditorTextos.Properties.Resources.resources
+C:\Users\Josue-Chuwi\source\repos\EditorTextos\EditorTextos\obj\Release\EditorTextos.csproj.GenerateResource.cache
+C:\Users\Josue-Chuwi\source\repos\EditorTextos\EditorTextos\obj\Release\EditorTextos.csproj.CoreCompileInputs.cache
+C:\Users\Josue-Chuwi\source\repos\EditorTextos\EditorTextos\obj\Release\EditorTextos.exe
+C:\Users\Josue-Chuwi\source\repos\EditorTextos\EditorTextos\obj\Release\EditorTextos.pdb
+C:\Users\gbj_0\Google Drive\EditorTextos\EditorTextos\bin\Release\EditorTextos.exe.config
+C:\Users\gbj_0\Google Drive\EditorTextos\EditorTextos\bin\Release\EditorTextos.exe
+C:\Users\gbj_0\Google Drive\EditorTextos\EditorTextos\bin\Release\EditorTextos.pdb
+C:\Users\gbj_0\Google Drive\EditorTextos\EditorTextos\obj\Release\EditorTextos.csproj.AssemblyReference.cache
+C:\Users\gbj_0\Google Drive\EditorTextos\EditorTextos\obj\Release\EditorTextos.Form1.resources
+C:\Users\gbj_0\Google Drive\EditorTextos\EditorTextos\obj\Release\EditorTextos.Properties.Resources.resources
+C:\Users\gbj_0\Google Drive\EditorTextos\EditorTextos\obj\Release\EditorTextos.csproj.GenerateResource.cache
+C:\Users\gbj_0\Google Drive\EditorTextos\EditorTextos\obj\Release\EditorTextos.csproj.CoreCompileInputs.cache
+C:\Users\gbj_0\Google Drive\EditorTextos\EditorTextos\obj\Release\EditorTextos.exe
+C:\Users\gbj_0\Google Drive\EditorTextos\EditorTextos\obj\Release\EditorTextos.pdb

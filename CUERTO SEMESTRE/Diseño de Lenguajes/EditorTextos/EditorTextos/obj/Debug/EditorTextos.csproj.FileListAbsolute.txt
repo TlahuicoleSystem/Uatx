@@ -1,0 +1,10 @@
+C:\Users\Josue-Chuwi\source\repos\EditorTextos\EditorTextos\bin\Debug\EditorTextos.exe.config
+C:\Users\Josue-Chuwi\source\repos\EditorTextos\EditorTextos\bin\Debug\EditorTextos.exe
+C:\Users\Josue-Chuwi\source\repos\EditorTextos\EditorTextos\bin\Debug\EditorTextos.pdb
+C:\Users\Josue-Chuwi\source\repos\EditorTextos\EditorTextos\obj\Debug\EditorTextos.csprojAssemblyReference.cache
+C:\Users\Josue-Chuwi\source\repos\EditorTextos\EditorTextos\obj\Debug\EditorTextos.Form1.resources
+C:\Users\Josue-Chuwi\source\repos\EditorTextos\EditorTextos\obj\Debug\EditorTextos.Properties.Resources.resources
+C:\Users\Josue-Chuwi\source\repos\EditorTextos\EditorTextos\obj\Debug\EditorTextos.csproj.GenerateResource.cache
+C:\Users\Josue-Chuwi\source\repos\EditorTextos\EditorTextos\obj\Debug\EditorTextos.csproj.CoreCompileInputs.cache
+C:\Users\Josue-Chuwi\source\repos\EditorTextos\EditorTextos\obj\Debug\EditorTextos.exe
+C:\Users\Josue-Chuwi\source\repos\EditorTextos\EditorTextos\obj\Debug\EditorTextos.pdb

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Preferencias </title>
+	<META CHARSET="utf-8">
+	<meta name="author" content="Josue Barrales">
+	<meta name="description" content="La casa free real state fully responsive html5/css3 home page website template"/>
+	<meta http-equiv="refresh" content="30">
+<meta name="viewport" content="width=device-width, initialscale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/estilos2.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos1.css">
+</head>
+<body>
+	<section class="hero">
+		<header>
+			<div class="wrapper">
+				<a href="index.html"><img src="imagenes/logo.jpg" class="logo" alt=""/></a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="productos.html">Productos</a></li>
+						<li><a href="inventario.html">Inventario</a></li>
+						<li><a href="contacto.html">Contacto</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+			<section class="caption">
+				<h2 class="caption">Vamos a ver que te gusta</h2>
+				<BR>
+				<BR>
+				<h3 class="properties">¡Todo por complacerte, claro!</h3>
+			</section>
+	</section> 
+	<br>
+	<br>
+	<!-- -->
+    <aside>
+			<img  src="imagenes/paloma.png"  alt=""/>
+	</aside>
+    <form action="index.html" method="post">
+	  <h1>¿Como te gusta mas?</h1>
+      <fieldset>
+          <legend><span class="number">1</span>Dias de preferencia</legend>
+		<select id="job" name="user_job">
+            <option value="Lunes">Lunes</option>
+            <option value="Martes">Martes </option>
+            <option value="Miercoles">Miercoles</option>
+            <option value="Miercoles">Jueves</option>
+            <option value="Viernes">Viernes</option>
+            <option value="Sabado">Sabado</option>
+        </select>	
+	</fieldset>
+	
+	 <fieldset>
+	 <legend><span class="number">2</span>Horarios</legend>
+          <label>Mañana o Tarde:</label>
+          <input type="checkbox" id="am" value="am" name="am"><label class="light" for="am">AM</label><br>
+            <input type="checkbox" id="pm" value="pm" name="pm"><label class="light" for="pm">PM</label><br>		  
+	         
+			<label for="nombre">La hora:</label>
+          <input type="text" id="hora" name="hora">
+	
+	</fieldset>
+	
+	<fieldset>
+	 <legend><span class="number">3</span>Productos</legend>
+          <label>¿Que producto quieres?</label>
+		<select id="job" name="user_job">
+            <option value="Codigo 1">Codigo 1</option>
+            <option value="Codigo 2">Codigo 2 </option>
+            <option value="Codigo 3">Codigo 3</option>
+            <option value="Codigo 4">Codigo 4</option>
+            <option value="Codigo 5">Codigo 5</option>
+            <option value="Codigo 6">Codigo 6</option>
+        </select>	
+	</fieldset>
+	
+	 <fieldset>
+	 <legend><span class="number">4</span>Cantidad</legend>
+          <label>Selleciona la cantidad de el producto:</label>
+			<label for="cantidad">Cantidad:</label>
+          <input type="number" id="cantidad" name="cantidad" step="2" min="1" max="30">
+	</fieldset>
+		<fieldset>
+          <legend><span class="number">2</span>Envia un comentario</legend>
+          <label for="bio">Comentario:</label>
+          <textarea id="bio" name="comentario"></textarea>
+        </fieldset>
+       <button type="submit">Comprar</button>
+	</form>
+      
+	<footer>
+
+		<div class="copyrights wrapper">
+			Copyright © 2021 <a href="contacto.html" target="_blank" class="ph_link" >Josue Barrales</a>. Derechos Reservados
+	</div>
+	</footer>
+</body>
+</html>
